@@ -1,0 +1,260 @@
+html, body, .cape {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  background: url('../img/capa.png'), url('../img/ruido.png'),
+   linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed;
+  font-family: helvetica, arial, sans-serif;
+  overflow-x: hidden;
+}
+
+#logo-img {
+  color: transparent;
+  height: 40px;
+  width: 132px;
+  display: block;
+  background: url('../img/spotify.svg') no-repeat;
+  background-size: contain;
+}
+nav.navbar-transparent {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 13px 0px;
+  border: none;
+}
+.navbar-brand {
+  padding: 0px;
+  padding-top: 3px;
+}
+.divisor {
+  width: 1px;
+  height: 16px;
+  margin: 16.5px 10px;
+  background: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #9bf0e1;
+}
+
+.cape {
+  display: table;
+  width: 100%;
+}
+
+.cape h1 {
+  font-size: 100px;
+  font-weight: 900px;
+  letter-spacing: -0.07em;
+  margin-bottom: 55px;
+}
+
+.text-cape {
+  font-weight: bold;
+  text-align:center;
+  color: white;
+  font-family: 'heveltica', arial, sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.btn-custom-1 {
+  color:white;
+  border-radius: 550px;
+  background: #7c25f8;
+
+}
+.btn-custom-2 {
+  color:white;
+  border-radius: 550px;
+  background: transparent;
+  border: 2px solid white;
+}
+.padding10 {
+   margin: 0px 20px;
+  text-transform: uppercase;
+}
+.btn-custom-1:hover {
+  background: #6207e3;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  transition: background 0.4s, color 0.4s;
+}
+.btn-custom-2:hover {
+  color: black;
+  background: white;
+  transition: background 0.4s, color 0.4s;
+}
+
+.conteudo-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+}
+.padd {
+  padding: 15px 0px 15px 0px;
+}
+.c-texto h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #7c25f8;
+  padding-bottom: 5px;
+}
+.c-texto h3 {
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #7c25f8;
+  padding-top: 10px;
+}
+
+.conteudo-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.conteudo-2 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: white;
+  padding-bottom: 5px;
+}
+.conteudo-2 h3 {
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: lightblue;
+  padding-top: 10px;
+}
+.rotation{
+  transform: rotate(30deg);
+  padding-left: 90px;
+}
+
+
+#foot {
+  margin-top: 90px;
+  background: black;
+  padding: 40px 0px 20px;
+  position: relative;
+}
+
+.service ul li{
+  list-style: none;
+  padding-top: 10px;
+}
+.service h4{
+  color: #919496;
+  text-transform: uppercase;
+  font-size: 13.5px;
+}
+.service a{
+  color: white;
+}
+.service a:hover{
+  color: #9bf0e1;
+  text-decoration: none;
+}
+.img-foot{
+  border-radius: 25%;
+  float: right;
+  padding: 5px 0px 0px 25px;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+
+  #logo-img {
+    margin-left: 5px;
+  }
+
+  .cape h1{
+    font-size: 50px;
+  }
+
+  .padding10 {
+    padding: 10px 35px;
+    margin: 10px 20px;
+  }
+
+  .conteudo-1 {
+    background: rgba(255, 255, 255, 0.75);
+  }
+
+  .img-767 {
+    padding: 15px;
+  }
+
+  .service {
+    margin-top: 23px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .service h4 {
+    font-size: 25px;
+  }
+
+  .service-mg {
+    margin-top: 70px;
+  }
+
+  .img-foot{
+    position: relative;
+    top: -624px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  #logo-img {
+    margin-left: 5px;
+  }
+
+  .cape h1{
+    font-size: 85px;
+  }
+
+  .padding10 {
+    padding: 10px 35px;
+    margin: 10px 20px;
+  }
+
+
+    .conteudo-1 {
+      background: rgba(255, 255, 255, 0.75);
+    }
+
+    .img-767 {
+      padding: 15px;
+    }
+
+    .service {
+      font-size: 20px;
+    }
+
+    .service h4 {
+      font-size: 25px;
+    }
+
+    .service-mg {
+      margin-top: 70px;
+    }
+
+    .img-foot{
+      position: relative;
+      top: -609px;
+    }
+
+
+}

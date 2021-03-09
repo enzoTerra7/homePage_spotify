@@ -1,0 +1,12 @@
+@media screen (max-width: 720px) {
+
+  body {
+    overflow-x: none;
+    width: 375px;
+  }
+
+  .font-700 {
+    font-size: 35px;
+  }
+
+}
